@@ -10,3 +10,36 @@ Its frontend is built with React.
 The backend is built with Express.js and Node.js.
 Real-time message broadcasting is developed using [Socket.IO](https://socket.io/).
 
+## Installation
+
+Install frontend dependencies
+
+```bash
+cd frontend
+npm install
+
+// start server
+npm start
+```
+
+Install backend dependencies
+
+```bash
+cd backend
+npm install
+
+// start server
+npm start
+```
+
+## Technology Used
+
+#### Frontend
+
+- [React](https://reactjs.org/)
+
+#### Backend
+
+- [Express](https://reactjs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [SocketIO](https://socket.io/)
