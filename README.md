@@ -15,7 +15,7 @@ Real-time message broadcasting is developed using [Socket.IO](https://socket.io/
 Install frontend dependencies
 
 ```bash
-cd frontend
+cd public
 npm install
 
 // start server
@@ -25,7 +25,7 @@ npm start
 Install backend dependencies
 
 ```bash
-cd backend
+cd server
 npm install
 
 // start server
