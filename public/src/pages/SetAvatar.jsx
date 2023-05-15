@@ -9,7 +9,7 @@ import {Buffer} from "buffer";
 import { setAvatarRoute } from '../utils/APIRoutes';
 
 function SetAvatar() {
-    const api = `https://api.multiavatar.com/4645646`;
+    const api = `https://api.multiavatar.com`;
     const navigate = useNavigate();
     const [avatars, setAvatars] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
@@ -53,7 +53,7 @@ function SetAvatar() {
             for (let i = 0; i < 4; i++) {
                 try {
                     const image = await axios.get(
-                        `${api}/${Math.round(Math.random() * 1000)}`
+                        `${api}/${Math.round(Math.random() * 1000)+"?apikey=ir4JdcneQvzkY6"}`
                     );
                     const buffer = new Buffer.from(image.data);
                     data.push(buffer.toString("base64"));
